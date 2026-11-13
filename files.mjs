@@ -10,3 +10,8 @@ export function readNote(name) {
 export function firstLine(name) {
   return readNote(name).split('\n')[0];
 }
+
+// Reads a note named in a request's query string.
+export function noteFromQuery(query) {
+  return readNote(new URLSearchParams(query).get('note'));
+}
