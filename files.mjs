@@ -8,5 +8,5 @@ export function readNote(name) {
 
 // Returns the first line of a note.
 export function firstLine(name) {
-  return readNote(name).split('\n')[1];
+  return readNote(name).split('\n')[0];
 }
