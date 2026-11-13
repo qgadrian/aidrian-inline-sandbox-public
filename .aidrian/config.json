@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "github": {
+    "reviewer": "chatgpt-codex-connector[bot]",
+    "extraRounds": "auto"
+  },
+  "review": {
+    "engine": "self",
+    "record": "comment",
+    "publish": { "summary": "findings", "inline": true }
+  }
+}
